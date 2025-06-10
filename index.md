@@ -4,7 +4,7 @@ layout: page
 permalink: /
 ---
 
-# こうのすプラス防災
+# 
 
 ## コンセプト
 
