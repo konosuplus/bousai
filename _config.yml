@@ -1,0 +1,12 @@
+title: 防災こうのすプラス
+description:  必要な情報へ即アクセス。軽量・高速な防災情報ページ。
+baseurl: ""
+url: "https://bousai.konosuplus.jp"
+theme: minima
+sass:
+  style: compressed
+plugins:
+  - jekyll-sitemap
+collections:
+  posts:
+    output: true

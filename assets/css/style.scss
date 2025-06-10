@@ -1,0 +1,155 @@
+---
+---
+
+/* 全体基本スタイル */
+body {
+  background-color: #eee8d5;
+  padding: 0.1rem 1rem;
+  color: #002b36;
+  font-family: 'Rounded Mplus 1c', sans-serif;
+  line-height: 1.75;
+  margin: 0;
+  padding: 0 2rem;
+}
+
+/* 見出し */
+h1, h2, h3 {
+  color: #3c8b94;
+  margin-top: 2em;
+}
+
+/* リンク */
+a {
+  color: #3c8b94;
+  text-decoration: underline;
+
+  &:hover {
+    color: #e27a6b;
+    text-decoration: none;
+  }
+}
+
+/* コード表示 */
+code, pre {
+  background-color: #93a1a1;
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+}
+
+/* ヘッダー構造 */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; // ← 左端にロゴ、右端にハンバーガーを配置
+}
+
+.logo-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.menu-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+/* ロゴ */
+.logo-link {
+  display: inline-block;
+}
+
+.site-logo {
+  height: 64px;
+  display: block;
+  margin-top: 4px;
+}
+
+@media (max-width: 600px) {
+  .site-logo {
+    height: 36px;
+  }
+}
+
+/* メニューアイコン */
+.menu-toggle {
+  font-size: 2rem;
+  height: 64px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #3c8b94;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* メニュー表示 */
+.site-nav {
+  display: none;
+  flex-direction: column;
+  background-color: #eee8d5;
+  padding: 1rem;
+  position: absolute;
+  top: 120px; /* ロゴ+余白分調整 */
+  right: 1rem;
+  width: 200px;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.site-nav.open {
+  display: flex;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.site-nav li a {
+  color: #3c8b94;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover {
+    color: #e27a6b;
+  }
+}
+
+/* フッター */
+.site-footer {
+  background-color: #eee8d5;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: #586e75;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 480px; /* 小さい画面ではスクロールさせる */
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+  white-space: nowrap;
+  background-color: #eee8d5;
+}
+
