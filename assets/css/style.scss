@@ -166,8 +166,8 @@ th, td {
   font-weight: bold;
   transition: background-color 0.3s;
 }
-.area-body img {
-  width: 100%;
+img {
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 1em 0;
