@@ -1,0 +1,11 @@
+- name: 鴻巣地区
+  slug: kounosu
+  color: "#e74c3c"
+
+- name: 箕田・赤見台地区
+  slug: midaakamidai
+  color: "#3498db"
+
+- name: 田間宮地区
+  slug: tamamiya
+  color: "#2ecc71"
