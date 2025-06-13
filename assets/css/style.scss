@@ -152,4 +152,19 @@ th, td {
   white-space: nowrap;
   background-color: #eee8d5;
 }
+.area-buttons {
+  margin-top: 1em;
+}
+
+.area-btn {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  margin: 0.4em;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
 

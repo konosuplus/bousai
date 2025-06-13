@@ -6,7 +6,7 @@ permalink: /shelters/
 
 # 鴻巣市 避難所マップ　索引
 
-<img src="/shelters/map/fullmap.avif" alt="鴻巣市全体マップ" />
+<img src="/shelters/map/1_zentai.avif" alt="鴻巣市全体マップ" />
 
 ## 地区ごとの避難所を見る
 

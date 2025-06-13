@@ -12,8 +12,6 @@ permalink: /shelters/kounosu/
 鴻巣地区（南部）
 <img src="/shelters/map/3_konosu2.avif" alt="鴻巣地区南部マップ" />
 
-
-
 ## 鴻巣地区避難所一覧
 
 - 鴻巣小学校
