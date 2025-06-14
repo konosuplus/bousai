@@ -12,7 +12,7 @@ permalink: /shelters/
 
 <div class="area-buttons">
   {% for area in site.data.areas %}
-    <a href="/shelters/{{ area.slug }}/" class="area-btn" style="background-color: {{ area.color }};">
+    <a href="{{ site.baseurl }}/shelters/{{ area.slug }}/" class="area-btn" style="background-color: {{ area.color }};">
       {{ area.name }}
     </a>
   {% endfor %}
