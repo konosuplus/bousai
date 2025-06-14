@@ -15,4 +15,4 @@ collections:
     output: true
   areas:
     output: true
-    permalink: /shelters/:name/
+    permalink: /shelters/:slug/
