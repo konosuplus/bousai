@@ -1,7 +1,7 @@
 ---
 layout: area
 title: 鴻巣地区の避難所
-permalink: /shelters/kounosu/
+permalink: /shelters/areas/kounosu/
 ---
 
 # 鴻巣地区の避難所
