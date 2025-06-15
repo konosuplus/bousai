@@ -1,7 +1,7 @@
 ---
 layout: area
-title: 鴻巣地区の避難所
-slug: konosu
+title: 常光地区の避難所
+slug: joko
 ---
 
 {% assign this_slug = page.slug %}
@@ -11,8 +11,7 @@ slug: konosu
   <strong><p style="color: white; padding-left: 0.4em;">{{ this_area.name }}</p></strong>
 </div>
 
-<img src="/shelters/map/3_konosu1.avif" alt="鴻巣地区北部マップ" />
-<img src="/shelters/map/4_konosu2.avif" alt="鴻巣地区南部マップ" />
+<img src="/shelters/map/9_joko.avif" alt="常光地区マップ" />
 
 <div style="background-color: {{ this_area.color }};">
   <strong><p style="color: white; padding-left: 0.4em;">{{ this_area.name }}地区 避難所一覧</p></strong>

@@ -10,3 +10,6 @@ vendor/
 # OSごとの不要ファイル
 .DS_Store
 Thumbs.db
+
+# WindowsのZone.Identifier（ADS）を無視
+*Zone.Identifier

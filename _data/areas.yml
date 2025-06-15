@@ -1,11 +1,31 @@
-- name: 鴻巣地区
+- name: ① 鴻巣
   slug: konosu
-  color: "#e74c3c"
+  color: "#880046"
 
-- name: 箕田・赤見台地区
+- name: ② 箕田・赤見台
   slug: midaakamidai
-  color: "#3498db"
+  color: "#4d45a4"
 
-- name: 田間宮地区
+- name: ③ 田間宮
   slug: tamamiya
-  color: "#2ecc71"
+  color: "#d91920"
+
+- name: ④ 馬室
+  slug: umamuro
+  color: "#d9058d"
+
+- name: ⑤ 笠原
+  slug: kasahara
+  color: "#827b00"
+
+- name: ⑥ 常光
+  slug: joko
+  color: "#05a1e6"
+
+- name: ⑦ 川里
+  slug: kawasato
+  color: "#f68712"
+
+- name: ⑧ 吹上
+  slug: fukiage
+  color: "#00a650"
