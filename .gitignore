@@ -1,0 +1,12 @@
+# Jekyll が自動生成するディレクトリ（絶対に不要）
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Ruby 関連のビルドキャッシュ
+.bundle/
+vendor/
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
