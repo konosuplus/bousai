@@ -15,7 +15,7 @@ body {
 /* 見出し */
 h1, h2, h3 {
   color: #3c8b94;
-  margin-top: 2em;
+  margin-top: 0.7em;
 }
 
 /* リンク */
@@ -47,6 +47,7 @@ code, pre {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin-left: -1.5rem; 
 }
 
 .menu-row {

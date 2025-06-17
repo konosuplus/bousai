@@ -57,15 +57,24 @@
         </div>
       </div>
     </footer>
-
     <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        const toggle = document.querySelector('.menu-toggle');
-        const nav = document.querySelector('.site-nav');
-        toggle.addEventListener('click', () => {
-          nav.classList.toggle('open');
+        document.addEventListener('DOMContentLoaded', function () {
+          const toggle = document.querySelector('.menu-toggle');
+          const nav = document.querySelector('.site-nav');
+
+          // メニュー開閉
+          toggle.addEventListener('click', (e) => {
+            e.stopPropagation(); // メニュー外クリック判定に干渉しないように
+            nav.classList.toggle('open');
+          });
+
+          // ボックス外クリックで閉じる
+          document.addEventListener('click', (e) => {
+            if (nav.classList.contains('open') && !nav.contains(e.target) && !toggle.contains(e.target)) {
+              nav.classList.remove('open');
+            }
+          });
         });
-      });
     </script>
   </body>
 </html>

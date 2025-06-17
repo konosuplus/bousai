@@ -30,8 +30,9 @@
       </div>
       <nav class="site-nav">
         <ul class="nav-list">
-          <li><a href="{{ '/' | relative_url }}">トップページ</a></li>
+          <li><a href="{{ '/' | relative_url }}">防災トップ</a></li>
           <li><a href="{{ '/hazard/' | relative_url }}">ハザードマップ</a></li>
+          <li><a href="{{ '/shelters/' | relative_url }}">避難所マップ</a></li>
           <li><a href="https://konosuplus.jp">こうのすプラスへ</a>
         </ul>
       </nav>
@@ -52,14 +53,22 @@
         </div>
       </div>
     </footer>
-
-
-    <script>
+  <script>
       document.addEventListener('DOMContentLoaded', function () {
         const toggle = document.querySelector('.menu-toggle');
         const nav = document.querySelector('.site-nav');
-        toggle.addEventListener('click', () => {
+
+        // メニュー開閉
+        toggle.addEventListener('click', (e) => {
+          e.stopPropagation(); // メニュー外クリック判定に干渉しないように
           nav.classList.toggle('open');
+        });
+
+        // ボックス外クリックで閉じる
+        document.addEventListener('click', (e) => {
+          if (nav.classList.contains('open') && !nav.contains(e.target) && !toggle.contains(e.target)) {
+            nav.classList.remove('open');
+          }
         });
       });
     </script>
